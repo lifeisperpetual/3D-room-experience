@@ -25,6 +25,7 @@ Visit:- https://3-d-room-experience.vercel.app
 
 ---
 
+
 ## ✨ **Features**
 
 - **Drag & Drop:** Move the bed, chair, desk, wardrobe, lamps, and more—each as a single unit!
@@ -35,6 +36,7 @@ Visit:- https://3-d-room-experience.vercel.app
 	- "Move Objects" button at the bottom right to toggle edit mode.
 	- Info button for instructions.
 	- Stylish close button for overlays.
+- **Reset Objects:** Instantly reset all furniture to their original positions with the "Reset Objects" button next to "Move Objects".
 - **Realistic Furniture:**
 	- Gaming chair with grouped parts (arms, legs, seat, etc. move together)
 	- Desk with laptop
@@ -45,9 +47,11 @@ Visit:- https://3-d-room-experience.vercel.app
 
 ---
 
+
 ## 📝 **Usage**
 
 - **Move Objects:** Click the "Move Objects" button, then drag furniture to rearrange. Click again to lock.
+- **Reset Objects:** Click the "Reset Objects" button (bottom right) to refresh the page and restore all objects to their starting positions.
 - **Look Around:** Left-click and drag to orbit, right-click to pan, scroll to zoom.
 - **Toggle Lamps:** Click lamp shades to turn bedside lamps on/off.
 - **Show Instructions:** Click the "?" info button (top left).

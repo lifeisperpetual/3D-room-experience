@@ -13,24 +13,7 @@
         canvas.webgl {
             display: block;
         }
-        #moveObjectsBtn {
-            position: absolute;
-            bottom: 15px;
-            right: 15px;
-            padding: 10px 18px;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            border: 1px solid white;
-            border-radius: 8px;
-            cursor: pointer;
-            font-family: sans-serif;
-            font-size: 16px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        #moveObjectsBtn:hover {
-            background-color: white;
-            color: black;
-        }
+
 
         
 .loading-screen {
@@ -205,6 +188,32 @@
 }
 
 
+        /* --- Button Container for Move/Reset --- */
+        .button-container {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            display: flex;
+            gap: 10px;
+            z-index: 10;
+        }
+        .button-container button {
+            padding: 10px 18px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: 1px solid white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: sans-serif;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .button-container button:hover {
+            background-color: white;
+            color: black;
+        }
+
+
     </style>
 </head>
 <body>
@@ -238,7 +247,10 @@
 
 
 
-    <button id="moveObjectsBtn">Move Objects</button>
+    <div class="button-container">
+        <button id="resetObjectsBtn">Reset Objects</button>
+        <button id="moveObjectsBtn">Move Objects</button>
+    </div>
 
     <!-- This 'importmap' tells the browser where to find the Three.js modules -->
     <script type="importmap">
@@ -251,6 +263,11 @@
     </script>
 
     <script type="module">
+        // Reset Objects button logic
+        const resetBtn = document.getElementById('resetObjectsBtn');
+        resetBtn.addEventListener('click', () => {
+            window.location.reload();
+        });
         import * as THREE from 'three';
         import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
         import { DragControls } from 'three/addons/controls/DragControls.js';
