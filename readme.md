@@ -28,7 +28,7 @@ Visit:- https://3-d-room-experience.vercel.app
 
 ## ✨ **Features**
 
-- **Drag & Drop:** Move the bed, chair, desk, wardrobe, lamps, and more—each as a single unit!
+- **Drag & Drop:** Move the bed, chair, desk, wardrobe, lamps, and more.
 - **Orbit Controls:** Look around the room with smooth camera controls (no visible GUI).
 - **Animated Blanket:** The bed blanket gently ripples for a cozy effect.
 - **Interactive Lamps:** Click the lamp shades to toggle their light and change the room's mood.
@@ -88,7 +88,7 @@ models/
 
 ## 📣 **Credits**
 
-- Built by [Your Name] using Three.js, Vite, and a love for interactive 3D design!
+- Built by Chirag Nagpal using Three.js, Vite, and a <3 for interactive 3D design!
 
 ---
 
