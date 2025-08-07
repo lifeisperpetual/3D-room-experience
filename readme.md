@@ -21,7 +21,7 @@ npm run dev
 
 **3. Open in your browser:**
 
-Visit:- 3-d-room-experience.vercel.app 
+Visit:- https://3-d-room-experience.vercel.app 
 
 ---
 
